@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 const front = document.querySelector(".front");
 const back = document.querySelector(".back");
 const cardNumberBox = document.querySelector(".card-number-box");
@@ -35,3 +36,6 @@ cvvInput.addEventListener("mouseleave", () => {
   front.style.transform = "perspective(1000px) rotateY(0deg)";
   back.style.transform = "perspective(1000px) rotateY(180deg)";
 });
+=======
+
+>>>>>>> 59274dc94f38c2e9fb1586c5840fa39810d7c621
