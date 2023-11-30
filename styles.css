@@ -62,6 +62,7 @@
 }
 .container .card-container .front .flexbox .box .card-holder-name {
   text-transform: uppercase;
+  width: 285px;
 }
 .container .card-container .front .flexbox .box .exp-month {
   text-transform: uppercase;
