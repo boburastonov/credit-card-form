@@ -64,7 +64,10 @@
                         color: #fff;
                         & .card-holder-name{
                             text-transform: uppercase;
-                            width: 285px;
+                            width: 275px;
+                            white-space: nowrap;
+                            overflow: hidden;
+                            text-overflow: ellipsis;
                         }
                         & .exp-month{
                             text-transform: uppercase;
