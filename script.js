@@ -19,9 +19,6 @@ cardNumberInput.addEventListener("input", () => {
 });
 cardHolderInput.addEventListener("input", () => {
   cardHolderName.innerText = cardHolderInput.value;
-  if (cardHolderInput.value.length === 21) {
-    cardHolderName.innerText = cardHolderInput.value.slice(0, 12) + '...';
-  }
 });
 monthInput.addEventListener("input", () => {
   expMonth.innerText = monthInput.value;
